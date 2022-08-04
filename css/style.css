@@ -1,0 +1,341 @@
+/* .parent{
+    width: 777px;
+    height: 444px;
+    margin: 0 auto;
+    border: 2px solid;
+    position: relative;
+}
+.child{
+    width: 222px;
+    height: 222px;
+    border: 2px solid purple;
+    position: absolute;
+    top: 55%;
+    left: 11%;
+}
+.box{
+    width: 222px;
+    height: 222px;
+    background-color: blueviolet;
+    position: relative;
+}
+.box1{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 222px;
+    height: 222px;
+    background-color: blue;
+    z-index: -1;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightpink;
+    min-width: 160px;
+    box-shadow: 11px 11px 11px rgb(168, 5, 168);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+body{
+    background-color: rgb(186, 1, 186);
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: azure;
+    /* border: 1px solid; */
+    box-sizing: content-box;
+    font: 1em sans-serif;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+main{
+    padding: 4rem;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+.nav-itm{
+    text-decoration: none;
+    color: rgba(20, 20, 20, 1);
+}
+.new{
+    background-color: #F64775;
+    color: whitesmoke;
+    padding:7px 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.btn1{
+    border: 2px solid #e8e6e6;
+    border-radius: 5px;
+    background-color: initial;
+    padding: 16px;
+    font-size: 16px;
+}
+.btn2{
+    background-color: #0099FF;
+    border: none;
+    border-radius:5px ;
+    color: whitesmoke;
+    padding: 16px; 
+    font-size: 16px;
+}
+.hero{ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-titl{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero-text{
+    text-align: center;
+    color: rgba(53, 57, 63, 1);
+    font-size: 20px;
+}
+.inp-form{
+    border: 2px solid rgba(0, 153, 255, 1);
+    padding: 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.btn3{
+    border: none;
+    background-color: rgba(0, 153, 255, 1);
+    color: whitesmoke;
+    padding: 18px;
+    border-radius: 0 5px 5px 0 ;
+    margin-left: -10px;
+    font-size: 16px;
+}
+.hero-text2{
+    color: rgba(178, 178, 178, 1);
+}
+.titl-work{
+    font-weight: 500;
+    font-size: 36px;
+}
+.sec2{ 
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+.sec2-box1{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem; 
+}
+.sec2-card{ 
+    /* border: 1px solid; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Hire{
+    color: rgba(12, 159, 100, 1);
+    font-size: 26px;
+    font-weight: 600;
+}
+.sec2-titl{
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec2-text{
+    font-size: 20px;
+}
+.btn4{
+    color: rgba(51, 51, 51, 1);
+    border: 2px solid  #e8e6e6;
+    border-radius: 5px;
+    background-color: initial;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sec2-box2{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem; 
+}
+.Create{
+    font-size: 26px;
+    color: rgba(254, 193, 4, 1);
+}
+.join{
+    background-color: rgba(32, 46, 120, 1);
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+    padding: 3rem 0;
+}
+h2{
+    font-size: 40px;
+}
+.join-text{
+    font-size: 18px;
+}
+.btn5{
+    background-color: initial;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    color: whitesmoke;
+    padding: 14px;
+    font-size: 16px;
+    margin: 3rem;
+}
+.templates{
+    background-color: rgba(24, 24, 24, 1);
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+}
+.templates-titl{
+    font-size: 44px;
+}
+.temp-img{
+    width: 100%;
+}
+.templates-text{
+    font-size: 20px;
+}
+.btn6{
+    background-color: #0099FF;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    font-size: 16px;
+    margin: 3rem;
+}
+.mini{
+    display: flex;
+    justify-content: space-around;
+    padding: 7rem 0;
+    /* border: 1px solid; */
+}
+.mini-box1{
+    /* border: 1px solid; */
+    text-align: center;
+}
+h3{
+    font-size: 70px;
+}
+.dog{
+    background-color: rgba(60, 169, 255, 1);
+    text-align: center;
+    border-radius: 15px;
+    padding: 4rem 0;
+}
+.dog-titl{
+    color: whitesmoke;
+    font-size: 50px;
+}
+.btn7{
+    color: whitesmoke;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+}
+.dog-itms{
+    color: whitesmoke;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    list-style: url("../images/Frame7.png");
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 22px 33px;
+    color: whitesmoke;
+}
+.footer-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 11px; */
+}
+.btn8{
+    background-color: rgba(60, 169, 255, 1);
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.footer-sect{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-itms{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.footer-li1{
+    list-style: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+.footer-li2{
+    list-style: none;
+    color: rgba(119, 130, 145, 1);
+}
+.li-hire{
+    color: rgba(12, 159, 100, 1);
+    font-weight: 700; list-style: none;
+}
+.li-create{
+    color: rgba(254, 193, 4, 1);
+    font-weight: 700; list-style: none;
+}
+sup{
+    background-color: #FC4945;
+    color: whitesmoke;
+    padding: 5px 9px;
+    border-radius: 100%;
+}
+.inp-foot{
+    background-color: rgba(119, 130, 145, 0.3);
+    padding: 16px;
+    border: none; outline: none;
+    border-radius: 10px 0 0 10px;
+    color: whitesmoke;
+}
+.btn9{
+    background-color: rgba(89, 93, 104, 1);
+    padding: 16px;
+    border: none;
+    border-radius:0 10px 10px 0 ;
+    color: whitesmoke;
+    margin-left: -7px;
+}
+a{
+    text-decoration: none;
+}
